@@ -1,0 +1,10 @@
+Fields from /organization response body
+
+properties
+
+founded_on_year
+"investors" --> get list of "name" from there
+"total_funding_usd" 
+organization/ORG_NAME/headquarters - "city" + "region"
+organization/ORG_NAME/founders - "name" property
+"funding_rounds" pick last in array, get path and make request to path   ----- https://api.crunchbase.com/v/2/funding-round/c26d2da69801e1632ded617dcd0a9a65?user_key=ab832d1209ba2606c63ada257ce614d0
